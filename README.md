@@ -5,6 +5,7 @@ Treasure-Poster is a simple PHP script to create treasures at www.elitepvpers.co
 1.0.
 
 ### Installation
+Download or clone this repository to your project.
 With this code example you should be fine. It's pretty straight forward.
 
 ```php
@@ -12,10 +13,10 @@ With this code example you should be fine. It's pretty straight forward.
     require_once 'classes/TreasureManager.php';
     require_once 'classes/Treasure.php';
 
-    // Create a new TreasureManager instance with your Elitepvpers credentials as paramter
+    // Create a new TreasureManager instance with your Elitepvpers credentials as paramter once
     $treasureManager = new TreasureManager('Username', 'Password');
 
-    // Create a Treasure objects
+    // Create a Treasure object
     $treasure = new Treasure();
     $treasure->setTitle('Treasure Title');
     $treasure->setContent('Treasure Content');
